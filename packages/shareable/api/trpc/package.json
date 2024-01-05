@@ -1,0 +1,26 @@
+{
+	"name": "trpc",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"lint": "eslint . --max-warnings 0"
+	},
+	"dependencies": {
+		"@tanstack/react-query": "4.36.1",
+		"@trpc/client": "^10.45.0",
+		"@trpc/react-query": "^10.45.0",
+		"@trpc/server": "^10.45.0",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"eslint-config": "workspace:*",
+		"typescript-config": "workspace:*",
+		"@types/node": "^20.5.2",
+		"@types/eslint": "^8.44.7",
+		"@types/react": "^18.2.0",
+		"@types/react-dom": "^18.2.0",
+		"eslint": "^8.53.0",
+		"react": "^18.2.0",
+		"typescript": "^5.2.2"
+	}
+}
