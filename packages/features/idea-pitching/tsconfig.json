@@ -1,0 +1,12 @@
+{
+	"extends": "typescript-config/react-library.json",
+	"compilerOptions": {
+		"module": "ES2015",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": ["node_modules"]
+}

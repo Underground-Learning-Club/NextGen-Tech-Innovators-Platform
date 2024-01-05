@@ -1,0 +1,33 @@
+{
+	"name": "ui",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"lint": "eslint . --max-warnings 0",
+		"ui:add": "pnpm dlx shadcn-ui@latest add"
+	},
+	"dependencies": {
+		"lucide-react": "^0.303.0",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"eslint-config": "workspace:*",
+		"tailwind-config": "workspace:*",
+		"typescript-config": "workspace:*",
+		"@types/eslint": "^8.44.7",
+		"@types/node": "^20.5.2",
+		"@types/react": "^18.2.0",
+		"@types/react-dom": "^18.2.0",
+		"eslint": "^8.53.0",
+		"react": "^18.2.0",
+		"typescript": "^5.2.2",
+		"@radix-ui/react-slot": "^1.0.2",
+		"autoprefixer": "^10.0.1",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.0",
+		"postcss": "^8",
+		"tailwind-merge": "^2.2.0",
+		"tailwindcss": "^3.4.0",
+		"tailwindcss-animate": "^1.0.7"
+	}
+}
